@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="android-chrome-512x512.png" type="image/png">
+
+
+    <title>Spotify - Your Favourate Music is Here</title>
+    <link rel="stylesheet" href="spotify.css" />
+  </head>
+  <body>
+    <!-- HEADER AND NAV STARTS FROM HERE  -->
+    <header>
+      <nav>
+        <ul>
+          <li class="brand">
+            <img src="code with harry code and images/logo.png" alt="Spotify" />
+            <span>Spotify</span>
+          </li>
+          <li>Home</li>
+          <li>About</li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HEADER AND NAV ENDS HERE  -->
+
+    <!-- CONTAINER STARTS FROM HERE  -->
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songsContainer">
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/295.jpg" alt="1" />
+              <span class="songName">295</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="0" class="far songItemPlay fa-solid fa-circle-play" width="30px" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/Just-Listen.jpg" alt="1" />
+              <span class="songName">Just Listen</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="1" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/the-last-ride-sidhu-moose-wala.webp" alt="1" />
+              <span class="songName">Last Ride</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="2" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/chnni.webp" alt="1" />
+              <span class="songName">Chunni</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="3" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/glory-yo-yo-honey-singh.webp" alt="1" />
+              <span class="songName">Millionare</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="4" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+               </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/g-shit-sidhu-moose-wala.webp" alt="1" />
+              <span class="songName">G-63</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="5" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/295.jpg" alt="1" />
+              <span class="songName">Dabb 32 Bor</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="6" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/On_Top_2_Karan_Aujla.webp" alt="1" />
+              <span class="songName">On Top 2</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="7" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+               </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/MVP_Shubh.webp" alt="1" />
+              <span class="songName">MVP</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="8" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+               </span>
+            </div>
+          </div>
+          <div>
+            <div class="songItem">
+              <img src="code with harry code and images/covers/Elevated.jpg" alt="1" />
+              <span class="songName">Elevated</span>
+              <span class="songlistplay"
+                ><span>05:34</span> <i id="9" class="far songItemPlay fa-solid fa-circle-play" style="color: #000000;"></i>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="songBanner"></div>
+    </div>
+
+    <!-- CONTAINER ENDS HERE  -->
+
+    <!-- BOTTOM STARTS HERE -->
+    <div class="bottom">
+      <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100" />
+      <!--due to range it will become a slider -->
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <span><i class="fa-solid fas fa-3x fa-backward" style="color: #1ed760;" id="previous"></i></span>
+        <span><i class="fa-solid far fa-3x fa-circle-play" style="color: #1ed760;" id="masterPlay"></i></span>
+        <span><i class="fa-solid fas fa-3x fa-forward" style="color: #1ed760;" id="next"></i></span>
+      </div>
+
+      <div class="songInfo">
+        <img src="code with harry code and images/playing.gif" alt="Animation" width="50px" id="gif"> <span id="masterSongName"> Let me Love You - by DJ Snake </span>
+ 
+      </div>
+    </div>
+
+    <!-- BOTTOM ENDS HERE  -->
+    <script src="https://kit.fontawesome.com/d9a9c176a6.js" crossorigin="anonymous"></script>
+    <script src="spotify.js"></script>
+  </body>
+</html>
